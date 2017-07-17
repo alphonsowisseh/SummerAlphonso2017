@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alphonso.alphonso2017summer.fragment.WorkFragment">
+
+   <RelativeLayout
+       android:id="@+id/Relativelayout_id"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="@android:color/holo_blue_bright"
+       android:layout_alignParentTop="true"
+       >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:gravity="center"
+           android:text="Quiz Section"
+           android:textColor="@android:color/white"
+           android:textSize="26sp" />
+   </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/Linner_2"
+        android:layout_below="@+id/Relativelayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Quiz1" android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_quiz2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Quiz2"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_quiz3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Quiz3"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Submit_button_id"
+        android:layout_below="@+id/Linner_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/blue_submit"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:id="@+id/activity_main_tool"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="You can do it!"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

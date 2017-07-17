@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alphonso.alphonso2017summer.SharedPreferenceActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Email: "
+           android:gravity="center"
+           android:textSize="30sp"
+           android:layout_marginLeft="5dp"/>
+
+       <EditText
+           android:id="@+id/activity_sharedpreference_email"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginRight="10dp"
+           android:hint="Please enter your password"
+           android:textSize="12sp"
+           android:gravity="center"
+           android:paddingTop="40dp"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Password: "
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/activity_sharedpreference_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:hint="Please enter your password"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:inputType="textWebPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_sharedpreference_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/activity_sharedpreference_clear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:text="clearchace"/>
+</LinearLayout>

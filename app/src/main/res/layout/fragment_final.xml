@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alphonso.alphonso2017summer.fragment.FinalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@mipmap/lexus"
+        android:layout_marginTop="44dp"
+        android:scaleType="center"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="The Parking Deck"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginTop="42dp"/>
+
+    <ListView
+        android:id="@+id/fragment_final_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="344dp"></ListView>
+
+</FrameLayout>
